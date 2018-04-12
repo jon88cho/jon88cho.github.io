@@ -2,36 +2,59 @@
   margin: 0;
   padding: 0;
 }
-
+@font-face {
+font-family: font1;
+src: url("../fonts/font1.ttf");
+}
+@font-face {
+font-family: title;
+src: url("../fonts/title.ttf");
+}
+.bodytext{
+  font-family: font1, sans-serif;
+	font-size:32px;
+	font-weight:normal;
+  margin: 5px;
+  padding-bottom: 55px;
+  text-align: center;
+}
 .header{
   background-image: white;
   background-position: center;
   color: black;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 50px;
+  padding: 40px;
+  font-family: title, cursive;
+	font-size:16px;
+	font-weight:normal;
 }
-ul {
+ul{
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
     text-align: center;
-    margin:0
+    padding-bottom:50px white;
+    padding-right:50px white ;
+    padding-left:50px white;
 }
 
-li {
+li{
     text-align: center;
     display: inline;
+    font-family: font1;
+    font-size: 32px;
 }
 
-li a {
+li a{
     display: inline-block;
     color: white;
     text-align: center;
     padding: 50px 90px;
     text-decoration: none;
-    margin-left:5%;
-    margin-right: 5%;
+    position:relative;
+    cursor:pointer;
+
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -39,3 +62,47 @@ li a:hover {
     background-color: #111;
     padding: 50px 90px;
 }
+/* span{
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 5px solid #DFDFDF;
+    color: #717171;
+    font-size: 13px;
+    height: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -80px;
+    left:-30px;
+    display:none;
+    padding:0 20px;
+
+}
+
+span:after{
+    content:'';
+    position:relative;
+    bottom:50px;
+    width:50px;
+    height:100px;
+    border-bottom:5px solid #dfdfdf;
+    border-right:5px solid #dfdfdf;
+    background:#f8f8f8;
+    left:50%;
+    margin-left:-5px;
+}
+span {
+  display:none
+}
+li a:hover span{
+    display:block;
+} */
+
+/* .popup{
+  display:none
+}
+li a:hover + .popup{
+  display:block
+} */
