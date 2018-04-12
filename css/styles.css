@@ -10,8 +10,21 @@ src: url("../fonts/font1.ttf");
 font-family: title;
 src: url("../fonts/title.ttf");
 }
+@font-face {
+font-family: handwritten;
+src: url("../fonts/handwritten.ttf");
+}
+
 .bodytext{
   font-family: font1, sans-serif;
+	font-size:32px;
+	font-weight:normal;
+  margin: 5px;
+  padding-bottom: 55px;
+  text-align: center;
+}
+.bodytext1{
+  font-family: handwritten, sans-serif;
 	font-size:32px;
 	font-weight:normal;
   margin: 5px;
@@ -26,25 +39,28 @@ src: url("../fonts/title.ttf");
   text-align: center;
   padding: 40px;
   font-family: title, cursive;
-	font-size:16px;
+	font-size:40px;
 	font-weight:normal;
+  word-spacing: 2em;
 }
-ul{
+.navbar{
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
+    background-color: #FDAC00;
     text-align: center;
-    padding-bottom:50px white;
-    padding-right:50px white ;
-    padding-left:50px white;
+    margin-bottom:400px;
+    white-space: nowrap;
 }
 
-li{
+ul li{
     text-align: center;
-    display: inline;
+    display: inline-block;
     font-family: font1;
     font-size: 32px;
+    margin-left:3%;
+    margin-right:3%;
 }
+
 
 li a{
     display: inline-block;
@@ -55,13 +71,37 @@ li a{
     position:relative;
     cursor:pointer;
 
+
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+.mainmenu:hover {
+    background-color: #FED275;
     padding: 50px 90px;
 }
+
+.menu {
+  list-style-type: none;
+  position: absolute;
+  background-color: white;
+  display:none
+
+}
+.submenu {
+  display: block;
+  text-align: left;
+  line-height: 3em;
+  font-family: serif;
+  font-size: 32px;
+}
+
+
+
+ul li:hover .menu {
+  display: block;
+}
+
+
 /* span{
     background: none repeat scroll 0 0 #F8F8F8;
     border: 5px solid #DFDFDF;
