@@ -1,104 +1,158 @@
 <!DOCTYPE html>
 <html>
-
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Jonathan Cho's Website</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   </head>
-
   <body>
-
-    <div class = "header">
+    <div class = "container">
       <h1>
-        Jonathan Cho
+        Hi! I'm Jonathan
         </h1>
   </div>
-
   <div class = "bodytext">
-    <p>Welcome to my Website! I am enrolled in 2B Management Engineering at the University of Waterloo. I am passionate about all things Data Science and Basketball.</p>
+    <p>I am 3A Management Engineering student at the University of Waterloo.</p>
+    <p>I have a passion for societal impacts techonlogies can make!</p>
   </div>
 
-    <ul class = "navbar">
-
-      <li><a href="" class = "mainmenu">Portfolio</a>
-
-        <ul class = "menu">
-
-        <li class = "submenu"><a href = "https://www.linkedin.com/in/jon88cho" target = "_blank" class = "popup">
-          <i class="fa fa-linkedin-square"
-          style = "font-size:100px;color: rgb(0,119,181)" ></i>
-        </a></li>
-        <li class = "submenu"><a href = "https://github.com/jon88cho" target = "_blank" class = "popup">
-          <i class="fa fa-github"
-          style = "font-size:100px;color: pink" ></i>
-        </a></li>
-
-      </ul>
-
-      </li>
-
-      <li><a href="./resume/resume.pdf" target = "_blank" class = "mainmenu">Resume</a></li>
-
-      <li><a href="" class = "mainmenu">Contact</a>
-
-        <ul class = "menu">
-          <li class = "submenu">
-            <i class="fa fa-envelope"
-            style = "font-size:32px;color: blue" ></i>    jon88cho@gmail.com</li>
-
-          <li class = "submenu">
-            <i class="fa fa-mobile"
-            style = "font-size:32px;color: blue" ></i>
-          (647)-867-8979</li>
-
-      </ul>
-
-
+  <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item mx-5">
+        <a class="nav-link" href="#">
+          <i class= "icon fas fa-home"></i></a>
       </li>
     </ul>
-
-    <div class = "bodytext1">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown mx-5">
+    <a class="nav-link" href="#" id="navbarDropdownPhone" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class= "icon fas fa-phone"></i></a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownPhone">
+            <a class="dropdown-item" href="javascript:void(0)">+1 (647)-867-8979</a>
+          </div>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link" href="https://github.com/jon88cho"><i class="fab fa-github-alt"></i></a>
+        </li>
+        <li class="nav-item dropdown mx-5">
+      <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-envelope"></i></a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="javascript:void(0)">jon88cho@gmail.com</a>
+          </div>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link" href="#experience">Experiences</a>
+        </li>
+        <li class="nav-item dropdown mx-5">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://github.com/jon88cho/Basketball">Basketball Project</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://github.com/jon88cho/VREDChatbot">Chat Bot</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://github.com/jon88cho/Kaggle_Titanic">Kaggle Titanic</a>
+          </div>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link" href="#">Interests</a>
+        </li>
+      </ul>
+      </div>
+  </nav>
+  <div id="projects" class="section">
+    <div class = "sectionTitle">
       <h1>Projects</h1>
     <p>
       Click the icons to view the two projects I have completed pertaining to Data Science.
     </p></div>
 
     <div class = "container">
-      <div class = "box_1">
+      <div class = "box">
         <a href="https://github.com/jon88cho/Kaggle_Titanic/blob/master/Kaggle%20Titanic%20Project.ipynb">
-        <img src="./img/kaggle.png" title="Kaggle">
+        <img src="./img/kaggle1.png" height = 240 title="Kaggle">
       </a>
-      <div class = "photo_desc">Kaggle Titanic Project</div></div>
-
-      <div class = "box_1">
+      <p class = "photo_desc">Kaggle Titanic Project</p></div>
+      <div class = "box">
         <a href="https://github.com/jon88cho/Basketball">
-        <img src="./img/nba.png" weight = 280 height = 280 title="basketball">
+        <img src="./img/nba1.png" height = 240 title="basketball">
       </a>
-      <div class = "photo_desc">Investigation into Basketball Questions</div></div>
+      <a><p class = "photo_desc">Investigation into Basketball Questions</p></a>
+    </div>
     </div>
 
-    <div class = "bodytext1">
+    <div class = "bodytext">
     <p>
-      Click the icons to view the two projects I am working on pertaining to Deep Learning.
+      Click the icons to view the two projects I have finished pertaining Deep Learning.
+    </p>
+  </div>
+
+    <div class = "container">
+      <div class = "box">
+        <a href="https://github.com/jon88cho/VREDChatbot/">
+        <img src="./img/chatbot.png" width = 230 height = 230 title="Chat Bot">
+      </a>
+      <p class = "photo_desc">Chat Bot</p></div>
+
+      <div class = "box">
+        <a href="https://github.com/jon88cho/nutrition_scan">
+        <img src="./img/computer_vision.png" width = 230 height = 230 title="Nutritional Label">
+      </a>
+      <p class = "photo_desc">Nutritional Label Detector</p></div>
+    </div>
+  </div>
+  <div id="experience" class="section">
+  </div>
+    <div class = "sectionTitle">
+      <h1>Projects</h1>
+    <p>
+      Click the icons to view the two projects I have completed pertaining to Data Science.
     </p></div>
 
     <div class = "container">
-      <div class = "box_1">
-        <a href="https://github.com/jon88cho/VREDChatbot/">
-        <img src="./img/chatbot.jpg" width = 280 height = 280 title="Chat Bot">
+      <div class = "box">
+        <a href="https://github.com/jon88cho/Kaggle_Titanic/blob/master/Kaggle%20Titanic%20Project.ipynb">
+        <img src="./img/kaggle1.png" height = 240 title="Kaggle">
       </a>
-      <div class = "photo_desc">Chat Bot</div></div>
-
-      <div class = "box_1">
-        <a href="https://github.com/jon88cho/nutrition_scan">
-        <img src="./img/computer_vision.png" width = 240 height = 240 title="Nutritional Label">
+      <p class = "photo_desc">Kaggle Titanic Project</p></div>
+      <div class = "box">
+        <a href="https://github.com/jon88cho/Basketball">
+        <img src="./img/nba1.png" height = 240 title="basketball">
       </a>
-      <div class = "photo_desc">Nutritional Label Detector</div></div>
+      <a><p class = "photo_desc">Investigation into Basketball Questions</p></a>
+    </div>
     </div>
 
+    <div class = "bodytext">
+    <p>
+      Click the icons to view the two projects I have finished pertaining Deep Learning.
+    </p>
+  </div>
+
+    <div class = "container">
+      <div class = "box">
+        <a href="https://github.com/jon88cho/VREDChatbot/">
+        <img src="./img/chatbot.png" width = 230 height = 230 title="Chat Bot">
+      </a>
+      <p class = "photo_desc">Chat Bot</p></div>
+
+      <div class = "box">
+        <a href="https://github.com/jon88cho/nutrition_scan">
+        <img src="./img/computer_vision.png" width = 230 height = 230 title="Nutritional Label">
+      </a>
+      <p class = "photo_desc">Nutritional Label Detector</p></div>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 
 </html>
