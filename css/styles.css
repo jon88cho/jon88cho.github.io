@@ -6,11 +6,48 @@ src: url("../fonts/OpenSans-Regular.ttf");
 font-family:'Roboto_Condensed';
 src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
+.titleDiv{
+    background-image: url("../img/title.jpg");
+    width:100%;
+    color:white;
+    height:100%;
+    position: relative;
+    background-size:100%;
+    display:block;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align:center;
+    background-repeat: no-repeat;
+
+}
+.title{
+  font-family:'Roboto_Condensed';
+  display:flex;
+  font-size:10vh;
+  justify-content: space-evenly;
+  padding-top: 5%;
+  position:relative;
+}
 .dropdown-toggle::after {
     display:none;
 }
 .navbar{
   font-size:4vh;
+}
+.nav-link{
+  color:#e3e4e5 !important;
+}
+.nav-link:hover{
+  color:white !important;
+}
+.dropdown-item.active, .dropdown-item:active{
+  background-color: #cb4749 !important;
+}
+.icon{
+  color:#e3e4e5;
+}
+.icon:hover{
+  color:white;
 }
 .bodytext{
   font-family: 'Roboto_Condensed';
