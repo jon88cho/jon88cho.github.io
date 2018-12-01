@@ -148,6 +148,10 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
   border-bottom: 2px solid black;
   margin-bottom: 2%;
 }
+.subHeading{
+  border-bottom: 2px solid black;
+  padding-bottom: .5rem
+}
 .card-text{
   margin-bottom: 3% !important;
   font-size: 2.7vh !important;
