@@ -6,6 +6,14 @@ src: url("../fonts/OpenSans-Regular.ttf");
 font-family:'Roboto_Condensed';
 src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
+.image{
+  background-position:center;
+  background-size: contain;
+  background-repeat:no-repeat;
+}
+.image:hover{
+  background-size: auto 90% !important;
+}
 .projects{
     background: #333131;
 }
@@ -63,8 +71,6 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
     color:white;
     background-position:center;
     text-align:center;
-    background-repeat: no-repeat;
-
 }
 .title{
   font-family:'Roboto_Condensed';
