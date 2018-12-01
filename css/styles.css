@@ -6,23 +6,7 @@ src: url("../fonts/OpenSans-Regular.ttf");
 font-family:'Roboto_Condensed';
 src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
-@media
-only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5){
-
-  html,
-  body{
-    width:100%;
-    overflow-x:hidden;
-  }
-
-}
 .projects{
-    /*background-image: url("../img/background.jpg");*/
-    /*width:100%;*/
-    /*height: 100%;*/
     background: #333131;
 }
 .sectionTitleText:before,
@@ -33,7 +17,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     height: 7px;
     position: relative;
     vertical-align: middle;
-    width: 50%;
+    width: 20%;
 }
 
 .sectionTitleText:before {
@@ -87,7 +71,8 @@ only screen and (min-device-pixel-ratio: 1.5){
   display:flex;
   font-size:10vh;
   justify-content: space-evenly;
-  padding-top: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   position:relative;
 }
 .dropdown-toggle::after {
@@ -97,7 +82,10 @@ only screen and (min-device-pixel-ratio: 1.5){
   font-size:3vh;
   background-color: #1985A1 !important;
 }
-.row{
+.homeIcon{
+  font-size:3vh;
+}
+.row.justify-content-center{
     padding-bottom: 3%;
 }
 .card-right{
@@ -127,14 +115,16 @@ only screen and (min-device-pixel-ratio: 1.5){
 .navBarText:Hover{
     border-bottom: 2px solid #46494C !important;
 }
-.dropdown-item.active, .dropdown-item:active{
-  background-color: #cb4749 !important;
-}
 .icon{
   color:#e3e4e5;
+  font-size: 6vh;
 }
 .icon:hover{
   color:white;
+  font-size: 6vh;
+}
+.bold{
+  font-weight: bold;
 }
 .bodytext{
   font-family: 'Roboto_Condensed';
@@ -142,38 +132,26 @@ only screen and (min-device-pixel-ratio: 1.5){
   margin-top: 4%;
   margin-bottom: 0 !important;
   text-align: center;
+  color:white;
 }
 .bodyDiv{
     padding-bottom: 5%;
+    width: 80%;
 }
-.container{
-  font-family:'Roboto_Condensed';
-  display:flex;
-  justify-content: space-evenly;
-  margin-top: 5%;
-  position:relative;
+.col-4{
+  text-align:center;
 }
-.box{
+.row{
+  width:100% !important;
 }
-.box:hover {
-  opacity:0.5;
-  position: relative;
-  text-align: center;
+.cardTitleDiv{
+  border-bottom: 2px solid black;
+  margin-bottom: 2%;
 }
-.box:hover .photo_desc{
-  display:block;
+.card-text{
+  margin-bottom: 3% !important;
+  font-size: 2.7vh !important;
 }
-.container .photo_desc{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Roboto_Condensed';
-  font-size:32px;
-  font-weight:bolder;
-  text-align: center;
-  color: black;
-  display:none;
-}
-.section{
+.card{
+  border-radius: .5rem; !important;
 }

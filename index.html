@@ -17,10 +17,6 @@
     <div class="title">
         <p>Hi! I'm Jonathan</p>
     </div>
-    <div class="bodyDiv">
-        <p class="bodytext">I am 3A Management Engineering student at the University of Waterloo.</p>
-        <p class="bodytext">I have a passion for societal impacts techonlogies can make!</p>
-    </div>
 </div>
 </div>
 
@@ -28,7 +24,7 @@
     <ul class="navbar-nav mr-auto">
         <li class="nav-item mx-5">
             <a class="nav-link" href="#">
-                <i class="icon fas fa-home"></i></a>
+                <i class="homeIcon fas fa-home"></i></a>
         </li>
     </ul>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
@@ -46,6 +42,9 @@
             <li class="nav-item dropdown mx-5">
                 <a class="nav-link" href="#projects"><span class="navBarText">Projects</span></a>
             </li>
+            <li class="nav-item dropdown mx-5">
+                <a class="nav-link" href="#contact"><span class="navBarText">Contact Me</span></a>
+            </li>
         </ul>
     </div>
 </nav>
@@ -54,92 +53,110 @@
       <div class="sectionTitle wow fadeInDown">
           <h1 class="sectionTitleText">About</h1>
       </div>
-      <div class="row">
-          <div class="col-6">
-              <div class="card card-left wow slideInLeft text-center">
-                  <div class="card-body">
-                      <h5 class="card-title">Salsa</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn">Go somewhere</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-6">
-              <div class="card card-right wow slideInRight text-center">
-                  <div class="card-body">
-                      <h5 class="card-title">Basketball</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn">Go somewhere</a>
-                  </div>
-              </div>
-          </div>
+        <div class="bodyDiv mx-auto wow fadeInUp">
+          <p class="bodytext">I am 3A Management Engineering student at the University of Waterloo.
+            I have a passion for societal impacts techonlogies can make!
+        </p>
+        <p class="bodytext">I like to  <span class="bold">Basketball</span>, <span class="bold">Guitar</span> and <span class="bold">Salsa</span>
+      </p>
       </div>
   </div>
     <div class="experience" id="experience" class="section">
         <div class="sectionTitle wow fadeInDown">
-            <h1 class="sectionTitleText">Experiences</h1>
+            <h1 class="sectionTitleText">Experience</h1>
         </div>
         <div class="row justify-content-center">
             <div class="col-10">
-                <div class="card wow slideInLeft text-center">
+                <div class="card wow slideInRight">
                     <div class="card-body">
-                        <h5 class="card-title">The Home Depot</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn">Go somewhere</a>
+                        <div class="cardTitleDiv row">
+                          <h5 class="col-4 text-left">Deloitte</h5><h5 class="col-4 text-center">Business Technology Analyst</h5><h5 class="col-4 text-right">09/18 - 12/18</h5>
+                        </div>
+                        <p class="card-text">- Ideated and executed AI pieces for a product sold to leading Canadian insurers to streamline claims processing</p>
+                        <p class="card-text">- Streamlined workflow of claims associates by predicting high risk insurance claims with 85% accuracy using Python and AWS Rekognition</p>
+                        <p class="card-text">- Enabled instant pricing on insurance claims by following production-level methodologies to build multi-class damage detection model in Tensorflow</p>
+                        <p class="card-text">- Designed and implemented web and mobile platforms that adhere to HCI and security best-practices</p>
                     </div>
                 </div>
             </div>
-            <!--<div class="col-6">-->
-                <!--<div class="card card-right wow slideInRight text-center">-->
-                    <!--<div class="card-body">-->
-                        <!--<h5 class="card-title">Deloitte</h5>-->
-                        <!--<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
-                        <!--<a href="#" class="btn">Go somewhere</a>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="card wow slideInLeft">
+                    <div class="card-body">
+                        <div class="cardTitleDiv row">
+                          <h5 class="col-4 text-left">The Home Depot</h5><h5 class="col-4 text-center">Developer - Data Analytics</h5><h5 class="col-4 text-right">01/18 - 04/18</h5>
+                        </div>
+                        <p class="card-text">- Devised a model using LSTMs in Keras that classifies help desk tickets based on semantic content with 90% accuracy</p>
+                        <p class="card-text">- Explored semantic data in tickets using DBSCAN and Word Vectors from SciKit-Learn and Gensim</p>
+                        <p class="card-text">- Created SQL queries and contributed logic to Java backend to support sales analysis and order journey efficiency streamlining on Google BigQuery</p>
+                        <p class="card-text">- Rectified $500,000 of sales discrepancies by correcting SQL queries for 15 reports by validating against an SAP BW database and participating in Scrum meetings</p>
+                        <p class="card-text">- Created interactive visualizations of geographic and time variables in Tableau</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="projects" id="projects" class="section">
         <div class="sectionTitle wow fadeInDown">
             <h1 class="sectionTitleText">Projects</h1>
         </div>
-        <div class="row">
-            <div class="col-6">
-                <div class="card card-left wow slideInLeft text-center">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="card wow flipInX">
                     <div class="card-body">
-                        <h5 class="card-title">Kaggle Titanic</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="https://github.com/jon88cho/Kaggle_Titanic" class="btn">Link</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="card card-right wow slideInRight text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">Basketball Exploration Project</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="https://github.com/jon88cho/Basketball" class="btn">Link</a>
+                        <div class="cardTitleDiv row">
+                        <h5 class="col-12 text-center">Nutrtional Label Scanner</h5>
+                        </div>
+                        <p class="card-text">- Created interactive visualizations of geographic and time variables in Tableau</p>
+                        <div class ="text-center">
+                          <a href="https://github.com/jon88cho/nutrition_scan" class="btn">Link</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6">
-                <div class="card card-left wow slideInLeft text-center">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="card wow flipInX">
                     <div class="card-body">
-                        <h5 class="card-title">Chat Bot</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="https://github.com/jon88cho/VREDChatbot" class="btn">Link</a>
+                        <div class="cardTitleDiv row">
+                        <h5 class="col-12 text-center">Kaggle Titanic</h5>
+                        </div>
+                        <p class="card-text">- Created interactive visualizations of geographic and time variables in Tableau</p>
+                        <div class ="text-center">
+                          <a href="https://github.com/jon88cho/Kaggle_Titanic" class="btn">Link</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="card card-right wow slideInRight text-center">
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="card wow flipInX">
                     <div class="card-body">
-                        <h5 class="card-title">Nutritional Label Detector</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="https://github.com/jon88cho/nutrition_scan" class="btn">Link</a>
+                        <div class="cardTitleDiv row">
+                        <h5 class="col-12 text-center">Basketball</h5>
+                        </div>
+                        <p class="card-text">- Created interactive visualizations of geographic and time variables in Tableau</p>
+                        <div class ="text-center">
+                          <a href="https://github.com/jon88cho/Basketball" class="btn">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="card wow flipInX">
+                    <div class="card-body">
+                        <div class="cardTitleDiv row">
+                        <h5 class="col-12 text-center">Chat Bot</h5>
+                        </div>
+                        <p class="card-text">- Created interactive visualizations of geographic and time variables in Tableau</p>
+                        <div class ="text-center">
+                          <a href="https://github.com/jon88cho/VREDChatbot" class="btn">Link</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,15 +166,15 @@
         <div class="sectionTitle wow fadeInDown">
             <h1 class="sectionTitleText">Contact</h1>
         </div>
-        <div class="row">
-            <div class="col-4">
-              <i class="icon fas fa-phone"></i>
+        <div class="row justify-content-center">
+            <div class="col-4 wow fadeInLeft">
+              <a class="nav-link" href="https://www.linkedin.com/in/jon88cho/"><i class="icon fab fa-linkedin"></i></a>
             </div>
-            <div class="col-4">
+            <div class="col-4 wow fadeInDown">
               <a class="nav-link" href="https://github.com/jon88cho"><i class="icon fab fa-github-alt"></i></a>
             </div>
-            <div class="col-4">
-              <i class="icon fas fa-envelope"></i>
+            <div class="col-4 wow fadeInRight">
+              <a class="nav-link" href="mailto:jon88cho@gmail.com"><i class="icon fas fa-envelope"></i></a>
             </div>
         </div>
     </div>
