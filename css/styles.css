@@ -19,6 +19,19 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
 .projects{
     background: #333131;
+    padding-top: 3%;
+}
+.experience{
+    background: #4C5C68 !important;
+    padding-top: 3%;
+}
+.about{
+    background: #46494C !important;
+    padding-top: 3%;
+}
+.contact{
+    background: #4C5C68 !important;
+    padding-top: 3%;
 }
 .sectionTitleText:before,
 .sectionTitleText:after {
@@ -40,15 +53,7 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
     left: 0.5em;
     margin-right: -50%;
 }
-.experience{
-    background: #4C5C68 !important;
-}
-.about{
-    background: #46494C !important;
-}
-.contact{
-    background: #4C5C68 !important;
-}
+
 .btn{
     background-color: #C5C3C6 !important;
     border: #C5C3C6 !important;
@@ -112,7 +117,7 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
     font-family: 'Roboto_Condensed';
     font-size:3vh;
     text-align: center;
-    padding-top:4%;
+    margin-top:2%;
 }
 .nav-link:hover{
   color:white !important;
