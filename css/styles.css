@@ -11,6 +11,9 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
   background-size: contain;
   background-repeat:no-repeat;
 }
+.wow{
+  width:100% !important;
+}
 .image:hover{
   background-size: auto 90% !important;
 }
@@ -149,6 +152,7 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
 .row{
   width:100% !important;
+  margin: 0 !important;
 }
 .cardTitleDiv{
   border-bottom: 2px solid black;
