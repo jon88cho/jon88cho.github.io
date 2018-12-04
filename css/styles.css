@@ -33,6 +33,9 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
     background: #4C5C68 !important;
     padding-top: 3%;
 }
+.sectionTitleText{
+  font-size: 6vh;
+}
 .sectionTitleText:before,
 .sectionTitleText:after {
     background-color: white;
@@ -55,11 +58,18 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
 
 .btn{
-    background-color: #C5C3C6 !important;
-    border: #C5C3C6 !important;
+    background-color: #C5C3C6;
+    border: #C5C3C6;
 }
-.btn:hover{
-    color: white;
+.btn.chatBot:hover{
+      background-color: #4C5C68 !important;
+      border: #4C5C68 !important;
+      color:white !important;
+}
+.btn.basketball:hover{
+      background-color: #333131 !important;
+      border: #333131 !important;
+      color:white !important;
 }
 .wow {
     visibility: hidden;
